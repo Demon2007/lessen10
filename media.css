@@ -1,0 +1,145 @@
+@media (max-width: 1300px) {
+  .our {
+    .our-img {
+      img {
+        max-width: 320px;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .hero {
+    .hero-text {
+      max-width: 300px;
+      h1 {
+        font-size: 52px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .hero-img {
+      .hero-1 {
+        max-width: 120px;
+        right: 9px;
+        top: 12px;
+      }
+      .hero-2 {
+        left: 0;
+        top: 25px;
+      }
+      .hero-4 {
+        left: -20px;
+        max-width: 80px;
+        width: 100%;
+      }
+    }
+  }
+  .our {
+    .our-img {
+      height: 300px;
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .our {
+    .our-img {
+      height: 250px;
+      img {
+        max-width: 210px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    nav,
+    input {
+      display: none;
+    }
+    .burger-menu {
+      display: block;
+    }
+  }
+  .hero {
+    flex-direction: column;
+    .hero-text {
+      width: 100%;
+      max-width: 534px;
+    }
+  }
+  .service {
+    .service-cards {
+      .card {
+        max-width: 250px;
+      }
+    }
+  }
+  .our {
+    .our-img img:last-child {
+      display: none;
+    }
+    .our-img img:nth-child(2) {
+      align-self: flex-start;
+    }
+    .our-img img {
+      max-width: 250px;
+    }
+  }
+  .footer {
+    nav a {
+      font-size: 13px;
+    }
+    span {
+      font-size: 11px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .service {
+    .service-cards {
+      justify-content: center;
+    }
+  }
+  .our {
+    .our-img img:nth-child(2) {
+      display: none;
+    }
+    .our-img {
+      justify-content: center;
+      img {
+        max-width: 320px;
+      }
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .contact {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    h2 {
+      line-height: 48px;
+    }
+  }
+  .footer {
+    flex-direction: column;
+    gap: 15px;
+    nav {
+      flex-direction: column;
+      a {
+        font-size: 16px;
+      }
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+}
